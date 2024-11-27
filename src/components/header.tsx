@@ -11,11 +11,11 @@ import {
 } from '@/components/ui/sheet'
 
 const navItems = [
-  { name: 'Hunt', href: '#' },
-  { name: 'Swap', href: '#' },
-  { name: 'Sell', href: '#' },
-  { name: 'Contact Developers', href: '#' },
-  { name: 'FAQs', href: '#' },
+  { name: 'Hunt', href: '/hunt' },
+  { name: 'Swap', href: '/swap' },
+  { name: 'Sell', href: '/sell' },
+  { name: 'Contact Developers', href: '/contact' },
+  { name: 'FAQs', href: '/faqs' },
 ]
 
 export default function Header() {

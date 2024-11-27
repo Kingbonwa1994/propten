@@ -3,6 +3,7 @@ import Hero from '@/components/hero'
 import Features from '@/components/features'
 import PropertySearch from '@/components/property-search'
 import Footer from '@/components/footer'
+import WhatsAppButton from '@/components/whatsapp-button'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <PropertySearch />
       </main>
       <Footer />
+      <WhatsAppButton />
     </div>
   )
 }
