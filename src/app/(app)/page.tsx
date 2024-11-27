@@ -4,6 +4,7 @@ import Features from '@/components/features'
 import PropertySearch from '@/components/property-search'
 import Footer from '@/components/footer'
 import WhatsAppButton from '@/components/whatsapp-button'
+import PropertyListings from '@/components/property-listings'
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Header />
       <main className="flex-grow">
         <Hero />
+        <PropertyListings />
         <Features />
         <PropertySearch />
       </main>
